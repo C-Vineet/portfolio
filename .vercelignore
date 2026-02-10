@@ -1,0 +1,6 @@
+src/
+scripts/
+*.config.ts
+.git
+.gitignore
+README.md

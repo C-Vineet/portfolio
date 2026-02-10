@@ -1,20 +1,21 @@
 import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Inter, Crimson_Text } from 'next/font/google'
 import './globals.css'
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const inter = Inter({
+  variable: '--font-sans',
   subsets: ['latin'],
 })
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const crimsonText = Crimson_Text({
+  variable: '--font-serif',
+  weight: ['400', '600', '700'],
   subsets: ['latin'],
 })
 
 export const metadata: Metadata = {
-  title: 'VCTest Portfolio',
-  description: 'A beautiful portfolio showcasing design and development work',
+  title: 'Vineet Chaudhary - Design Director & Strategic Design Leader',
+  description: 'Transforming complex enterprise challenges into elegant, user-centered solutions. UX Director with 15+ years leading design teams.',
 }
 
 export const viewport: Viewport = {
@@ -32,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
+        className={`${inter.variable} ${crimsonText.variable} font-sans antialiased`}
       >
         {children}
       </body>
