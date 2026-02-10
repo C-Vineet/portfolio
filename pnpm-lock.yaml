@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       clsx:
-        specifier: 2.1.1
+        specifier: ^2.1.0
         version: 2.1.1
+      framer-motion:
+        specifier: ^11.0.0
+        version: 11.18.2(@emotion/is-prop-valid@1.4.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       lucide-react:
-        specifier: 0.487.0
+        specifier: ^0.487.0
         version: 0.487.0(react@18.3.1)
-      motion:
-        specifier: 12.23.24
-        version: 12.23.24(@emotion/is-prop-valid@1.4.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next:
         specifier: ^16.0.0
         version: 16.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -27,8 +27,8 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       tailwind-merge:
-        specifier: 3.2.0
-        version: 3.2.0
+        specifier: ^2.0.0
+        version: 2.6.1
     devDependencies:
       '@types/node':
         specifier: ^20
@@ -306,8 +306,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  framer-motion@12.34.0:
-    resolution: {integrity: sha512-+/H49owhzkzQyxtn7nZeF4kdH++I2FWrESQ184Zbcw5cEqNHYkE5yxWxcTLSj5lNx3NWdbIRy5FHqUvetD8FWg==}
+  framer-motion@11.18.2:
+    resolution: {integrity: sha512-5F5Och7wrvtLVElIpclDT0CBzMVg3dL22B64aZwHtsIY8RB4mXICLrkajK4G9R+ieSAGcgrLeae2SeUTg2pr6w==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0 || ^19.0.0
@@ -332,25 +332,11 @@ packages:
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  motion-dom@12.34.0:
-    resolution: {integrity: sha512-Lql3NuEcScRDxTAO6GgUsRHBZOWI/3fnMlkMcH5NftzcN37zJta+bpbMAV9px4Nj057TuvRooMK7QrzMCgtz6Q==}
+  motion-dom@11.18.1:
+    resolution: {integrity: sha512-g76KvA001z+atjfxczdRtw/RXOM3OMSdd1f4DL77qCTF/+avrRJiawSG4yDibEQ215sr9kpinSlX2pCTJ9zbhw==}
 
-  motion-utils@12.29.2:
-    resolution: {integrity: sha512-G3kc34H2cX2gI63RqU+cZq+zWRRPSsNIOjpdl9TN4AQwC4sgwYPl/Q/Obf/d53nOm569T0fYK+tcoSV50BWx8A==}
-
-  motion@12.23.24:
-    resolution: {integrity: sha512-Rc5E7oe2YZ72N//S3QXGzbnXgqNrTESv8KKxABR20q2FLch9gHLo0JLyYo2hZ238bZ9Gx6cWhj9VO0IgwbMjCw==}
-    peerDependencies:
-      '@emotion/is-prop-valid': '*'
-      react: ^18.0.0 || ^19.0.0
-      react-dom: ^18.0.0 || ^19.0.0
-    peerDependenciesMeta:
-      '@emotion/is-prop-valid':
-        optional: true
-      react:
-        optional: true
-      react-dom:
-        optional: true
+  motion-utils@11.18.1:
+    resolution: {integrity: sha512-49Kt+HKjtbJKLtgO/LKj9Ld+6vw9BjH5d9sc40R/kVyH8GLAXgT42M2NnuPcJNuA3s9ZfZBUcwIgpmZWGEE+hA==}
 
   nanoid@3.3.11:
     resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
@@ -427,8 +413,8 @@ packages:
       babel-plugin-macros:
         optional: true
 
-  tailwind-merge@3.2.0:
-    resolution: {integrity: sha512-FQT/OVqCD+7edmmJpsgCsY820RTD5AkBryuG5IUqR5YQZSdj5xlH5nLgH7YPths7WsLPSpSBNneJdM8aS8aeFA==}
+  tailwind-merge@2.6.1:
+    resolution: {integrity: sha512-Oo6tHdpZsGpkKG88HJ8RR1rg/RdnEkQEfMoEk2x1XRI3F1AxeU+ijRXpiVUF4UbLfcxxRGw6TbUINKYdWVsQTQ==}
 
   tailwindcss@4.1.12:
     resolution: {integrity: sha512-DzFtxOi+7NsFf7DBtI3BJsynR+0Yp6etH+nRPTbpWnS2pZBaSksv/JGctNwSWzbFjp0vxSqknaUylseZqMDGrA==}
@@ -614,10 +600,10 @@ snapshots:
   detect-libc@2.1.2:
     optional: true
 
-  framer-motion@12.34.0(@emotion/is-prop-valid@1.4.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  framer-motion@11.18.2(@emotion/is-prop-valid@1.4.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      motion-dom: 12.34.0
-      motion-utils: 12.29.2
+      motion-dom: 11.18.1
+      motion-utils: 11.18.1
       tslib: 2.8.1
     optionalDependencies:
       '@emotion/is-prop-valid': 1.4.0
@@ -634,20 +620,11 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  motion-dom@12.34.0:
+  motion-dom@11.18.1:
     dependencies:
-      motion-utils: 12.29.2
+      motion-utils: 11.18.1
 
-  motion-utils@12.29.2: {}
-
-  motion@12.23.24(@emotion/is-prop-valid@1.4.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
-    dependencies:
-      framer-motion: 12.34.0(@emotion/is-prop-valid@1.4.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      tslib: 2.8.1
-    optionalDependencies:
-      '@emotion/is-prop-valid': 1.4.0
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
+  motion-utils@11.18.1: {}
 
   nanoid@3.3.11: {}
 
@@ -745,7 +722,7 @@ snapshots:
       client-only: 0.0.1
       react: 18.3.1
 
-  tailwind-merge@3.2.0: {}
+  tailwind-merge@2.6.1: {}
 
   tailwindcss@4.1.12: {}
 

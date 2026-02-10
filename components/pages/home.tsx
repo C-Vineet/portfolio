@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { ArrowRight, Users, Lightbulb, Target } from 'lucide-react';
 import Image from 'next/image';
 

@@ -2,7 +2,7 @@
 
 import { usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
-import { motion, AnimatePresence } from 'motion/react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { Navigation } from '@/components/navigation'
 import { ScrollProgress } from '@/components/scroll-progress'
 import { BackToTop } from '@/components/back-to-top'

@@ -1,6 +1,6 @@
 'use client'
 
-import { motion, useScroll, useTransform } from 'motion/react'
+import { motion, useScroll, useTransform } from 'framer-motion'
 
 export function FloatingBadge() {
   const { scrollYProgress } = useScroll()
