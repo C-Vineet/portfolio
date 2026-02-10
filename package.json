@@ -75,10 +75,3 @@
     "typescript": "^5"
   }
 }
-  },
-  "pnpm": {
-    "overrides": {
-      "vite": "6.3.5"
-    }
-  }
-}
