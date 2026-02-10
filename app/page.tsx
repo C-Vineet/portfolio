@@ -7,6 +7,7 @@ import { Navigation } from '@/components/navigation'
 import { ScrollProgress } from '@/components/scroll-progress'
 import { BackToTop } from '@/components/back-to-top'
 import { EasterEgg } from '@/components/easter-egg'
+import { FloatingBadge } from '@/components/floating-badge'
 import { Home } from '@/components/pages/home'
 import { Work } from '@/components/pages/work'
 import { About } from '@/components/pages/about'
@@ -48,6 +49,7 @@ export default function Page() {
       <Navigation />
       <ScrollProgress />
       <BackToTop />
+      <FloatingBadge />
       <EasterEgg />
       <AnimatePresence mode="wait">
         <motion.div
